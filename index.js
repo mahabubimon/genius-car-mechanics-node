@@ -62,7 +62,7 @@ const run = async () => {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Running Genius Car Server 5");
+  res.send("Running Genius Car Mechanics Node Server Successfully.");
 });
 
 app.listen(port, () => {
